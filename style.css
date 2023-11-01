@@ -1,0 +1,611 @@
+@font-face {
+    font-family:ss ;
+    src: url(./image/KFOmCnqEu92Fr1Mu4mxK.ttf);
+}
+
+*{
+    margin: 0px;
+    font-family:sans-serif;
+    border:border-box;
+}
+.nav{
+height:85px;
+width: 100%;
+background-color:white;
+z-index: 2;
+display: flex;
+align-items: center;
+justify-content: space-around;
+position: fixed;
+    
+}
+.nav-logo{
+height:64px ;
+width: 280px;
+padding-left: 85px;
+}
+
+
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.nav-store{
+    background-color: #3c3c3c;
+    color: white;
+    border-radius: 25px;
+    height: 40px;
+    width: 90px;
+    cursor: pointer;
+    border: none;
+}
+.nav-store:hover{
+    background-color: white;
+    color: #3c3c3c;
+    border: 1px;
+    transition: all ease-in-out,.25s;
+    
+}
+.nav-symbol{
+width: 50px;
+height: 50px;
+cursor: pointer;
+padding-right: 88px;
+}  
+.first{
+    width: 100%;
+    height: 100%;
+    padding-top: 84px;
+}
+.first-img{
+    height: 650px;
+    width: 100%;
+
+}
+.first-text{
+    position: absolute;
+    padding: 50px;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+     display: flex;
+    flex-direction: column; 
+     margin-bottom: 100px; 
+    display: flex;
+   align-content: center;
+
+}
+ .wer
+{
+
+   left: 300px;
+   bottom:  400px;
+   font-family: Poppins,sans-serif;
+   color: white;
+   font-weight: bolder;
+   font-weight: 700;
+   font-size: 70px
+} 
+.para1{
+
+    left: 300px;
+    bottom:  400px;
+    font-size: 21px;
+    font-family: Poppins,sans-serif;
+    font-weight: 500;
+    color: white;
+    line-height: 45px;
+} 
+.Contact-us{
+    color: #3c3c3c;
+    background-color: #f2f5f7;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.Contact-us:hover{
+    background-color: #3c3c3c;
+    color: #f2f5f7;
+    border: 1px;
+    transition: all ease-in-out,.25s;
+}
+
+.franchise{
+width : 100%;
+display: flex;
+flex-direction: column;
+height: 501px;
+background-color: #f4f3f3;
+}
+
+.fheader{
+    height: 60px;
+    width: 100%;
+    padding-top: 60px;
+    text-align: center;
+        
+}
+.fh1{ 
+   color: #3c3c3c; 
+   font-family: Poppins,sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+ } 
+.fbody{
+    height: 176px;
+    width: 92%;
+    display: flex;
+    text-align: center; 
+    margin-left: 60px;
+    margin-right: 60px;  
+}
+
+ .fbody1{
+    height: 136px;
+    width: 453px;
+    padding: 25px;
+}
+h3{
+    font-family: sans-serif;
+    font-weight: 300px;
+    color: #3c3c3c;
+    letter-spacing: 1px;
+
+}
+p{
+    font-family: poppins,sans-serif;
+    color: #3c3c3c;
+    font-size: 14px;
+}
+.fbody2{
+
+    height: 136px;
+    width: 453px;
+    padding: 25px;
+}
+h3{
+    font-family: sans-serif;
+    font-weight: 300px;
+    color: #3c3c3c;
+    letter-spacing: 1px;
+    padding: 25px;
+
+}
+p{
+    font-family: poppins,sans-serif;
+    color: #3c3c3c;
+    font-size: 14px;
+}
+.fbody3{
+   
+    height: 136px;
+    width: 453px;
+    padding: 25px;
+}
+h3{
+    font-family: sans-serif;
+    font-weight: 300px;
+    color: #3c3c3c;
+    letter-spacing: 1px;
+
+}
+p{
+    font-family: poppins,sans-serif;
+    color: #3c3c3c;
+    font-size: 14px;
+}
+.ffooter{
+    height: 105px;
+    width: 100%;
+    background-color: #f4f3f3;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.know-more{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    background-color: black;
+    color: #f4f3f3;
+    border-radius: 10px;
+    height: 65px;
+    width: 330px;
+    font-size: 30px;
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+.know-more:hover{
+    background-color: #f4f3f3;
+    color: black;
+    border: 1px;
+    transition:all ease-in-out,.25s;
+    cursor: pointer;
+}
+
+/* second row special tea */
+.signaturetea{
+    height: 881.800px;
+    width: 1360px;
+    padding:20px ;
+    margin: 59.9px;
+}
+.signatureteafrstrow{
+    height: 324px;
+    width:1360px;
+    display: flex;
+
+    justify-content: center;
+} 
+.frstrowimg{
+    height: 319px;
+    width: 408px;
+}
+.frstrowcntnt{
+     height: 324px;
+     width: 892px;
+ 
+     padding-left: 30px;
+     padding-right: 30px;
+
+     
+     
+}
+
+.fsrtrw-head{
+    height: 60px;
+    width: 892px;
+    font-family: ss;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    padding-top: 40px;
+
+}
+
+.frstrwpara{
+    height: 105px;
+    width: 892px;
+    font-family: ss;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: justify;
+
+
+}
+
+.signatureteascndrow{
+    height:333px ;
+    width:1360px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+ .scndrowcontnt{
+    height: 333px;
+    width: 892px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+
+}
+
+.scndrw-head{
+    height: 60px;
+    width: 892px;
+    font-family: ss;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    padding-top: 40px; 
+
+}
+
+.scndrw-para{
+    height: 105px;
+    width: 892px;
+    font-family: ss;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: justify; 
+    
+} 
+
+.signtureteatrdrow{
+    height: 65px;
+    width: 1360px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.seemore{
+    height: 65px;
+    width: 338px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: ss;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    color: #fff;
+    background-color: #3c3c3c;
+    border: 1.5px solid #3C3C3C;
+}
+.seemore:hover{
+    background-color: #f4f3f3;
+    color:#3c3c3c ;
+    border: 1px;
+}
+
+.benefits{
+    height: 296px;
+    width:1513px ;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #f4f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.bnftsheader{
+    height: 60px;
+    width: 1360px;
+
+    text-align: center;
+   
+   
+
+}
+.bnftsheading{
+    font-style: ss;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.bnftsbody{
+    height: 196px;
+    width: 1360px;
+    padding: 20px;
+    display: flex;
+}
+
+.bnftsbody1{
+    height: 196px;
+    width:403.337px ;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fisrtbodyimg{
+    height: 60px;
+    width: 60px;
+   
+}
+.frstbdyheading{
+    width: 139.387px;
+    height: 33px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.frstbdypara{
+    height: 63px;
+    width: 403.337px;
+    text-align: center;
+    
+}
+
+.products{
+    width: 1360px;
+    height: 444px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 80px;
+   padding-top: 80px;
+   background-color: #fff;
+   margin-top: 94px;
+}
+
+.prdctshead{
+    font-family: ss;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #3c3c3c;
+}
+
+.products-data{
+    height: 284px;
+    width: 1360px;
+    
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.databutten{
+    border-radius: 50%;
+    height: 42px;
+    width: 41px;
+    background-color: #3C3C3C;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: ss;
+    margin-top: 110px;
+
+}
+.databutten:hover{
+background-color: #3c3c3c;
+}
+
+.frstdtacntnt{
+    height: 244px;
+    width: 174px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.frstdtacntnt:hover{
+   background-color:#fff;
+   box-shadow: 0 0 70px #00000017;
+    
+}
+
+.cntntimg{
+    height: 136px;
+    width: 200px;
+}
+
+.cntntdata{
+height: 45px;
+width: 174px;
+font-family: ss;
+font-weight: lighter;
+}
+
+.pricedata{
+    height: 27px;
+    width: 45px;
+    font-family: ss;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #3c3c3c;
+  
+}
+
+.bttndata{
+    height: 34.400px;
+    width: 113.400px;
+    background-color: #3C3C3C;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: ss;
+
+}
+
+.bttndata:hover{
+    background-color:#fff ;
+    color: #3C3C3C; 
+    
+}
+
+.databuttenlst{
+    border-radius: 50%;
+    height: 42px;
+    width: 41px;
+background-color: #3C3C3C;
+font-size: 20px;
+color: #fff;
+font-family: ss;
+margin-top: 110px;
+border: none;
+}
+.databuttenlst:hover{
+    background-color: #3c3c3c;
+    }
+
+    .utubevdeo{
+        display: flex;
+        justify-content: center;
+        height: 400px;
+        width: 1360px;
+       
+        
+    }
+
+    .footerimg{
+        height: 485px;
+        width: 1508px;
+
+        
+    }
+    .footrfrstdiv{
+      
+        width: 1360px;
+        height: 114px;
+        position: absolute;
+       margin-left: 62px;
+       margin-top: 50px;
+       top: 4050px;
+     
+
+    }
+
+    .lastlogo{
+        height: 64px;
+        width: 280px;
+    }
+    hr{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .lastlist{
+        justify-content: space-between;
+      display: flex;
+      list-style-type: none;
+      width: 458px;
+      list-style: none;
+      align-items: flex-end;
+    }
+    .footrfrstcontnt{
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+    }
+
+    .footrsymbols{
+        height: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: ss;
+    }
+    .fttrsymblspara{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 21px;
+        color: #3c3c3c;
+        font-family: ss;
+    }
+
+  
+    .lastlist{
+        justify-content: space-between;
+      display: flex;
+      font-weight: lighter;
+      margin-left: 50px;
+      margin-right: 50px;
+      list-style-type: none;
+      font-size: 16px;
+    }
+    .line{
+        border: 1px solid #000;
+    }
+.fttrsymblspara1{
+    font-size: 21px;
+}
